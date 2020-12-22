@@ -16,7 +16,7 @@ class _profileState extends State<profile> {
         return Scaffold(
           backgroundColor: Color(PURPLE),
           appBar: AppBar(
-            title: Text('My'),
+            title: Text('My home'),
             centerTitle: true,
             actions: [
               IconButton(
