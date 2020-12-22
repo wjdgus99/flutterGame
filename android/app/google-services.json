@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1001332101481",
+    "project_id": "fluttergame-2c865",
+    "storage_bucket": "fluttergame-2c865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001332101481:android:c052b8b46ca2022bac6df8",
+        "android_client_info": {
+          "package_name": "com.example.flutter_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001332101481-8ftksp78bk8n4ttme0ol71ftqlot9blj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_game",
+            "certificate_hash": "f9b6d480307ba9693858cc3741c8e42207eb58e6"
+          }
+        },
+        {
+          "client_id": "1001332101481-g09vnssqrmho1pmmgk7khpo77h8ktj8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_game",
+            "certificate_hash": "24f0c3fc8c98a648b0bbb1b884e8a7dffcdcf166"
+          }
+        },
+        {
+          "client_id": "1001332101481-kknji50l760ene2hdougd29uln6g74j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_game",
+            "certificate_hash": "a6fc45b965f5ec84821506eae936690234fd8159"
+          }
+        },
+        {
+          "client_id": "1001332101481-lm00ltb6tj8cg7j8h1c8cj2g1gdlmfk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmgPeebW8CNEZwnjZ3_M39NbTGB1BjHCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001332101481-lm00ltb6tj8cg7j8h1c8cj2g1gdlmfk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

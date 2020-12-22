@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1001332101481-lm00ltb6tj8cg7j8h1c8cj2g1gdlmfk9.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1001332101481</string>
+    <string name="google_api_key" translatable="false">AIzaSyBmgPeebW8CNEZwnjZ3_M39NbTGB1BjHCw</string>
+    <string name="google_app_id" translatable="false">1:1001332101481:android:c052b8b46ca2022bac6df8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBmgPeebW8CNEZwnjZ3_M39NbTGB1BjHCw</string>
+    <string name="google_storage_bucket" translatable="false">fluttergame-2c865.appspot.com</string>
+    <string name="project_id" translatable="false">fluttergame-2c865</string>
+</resources>
