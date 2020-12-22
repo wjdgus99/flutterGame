@@ -16,7 +16,7 @@ class _loginState extends State<login> {
       return Scaffold(
         appBar: AppBar(),
         body: Padding(
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.all(11),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
