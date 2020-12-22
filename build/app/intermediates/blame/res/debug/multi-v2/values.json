@@ -1,10 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ljhyun/AndroidStudioProjects/Flutter_Game/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/ljhyun/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/values/values.xml",
+                    "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/0c5883ada251482f4fbec4637c188211/jetified-play-services-basement-17.0.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "84,94",
+                        "startColumns": "4,4",
+                        "startOffsets": "5259,6437",
+                        "endColumns": "67,166",
+                        "endOffsets": "5322,6599"
+                    }
+                },
+                {
+                    "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,200,283,387,497,617,718",
+                        "endColumns": "144,82,103,109,119,100,77",
+                        "endOffsets": "195,278,382,492,612,713,791"
+                    },
+                    "to": {
+                        "startLines": "104,105,106,107,108,109,110",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7730,7875,7958,8062,8172,8292,8393",
+                        "endColumns": "144,82,103,109,119,100,77",
+                        "endOffsets": "7870,7953,8057,8167,8287,8388,8466"
+                    }
+                },
+                {
+                    "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -23,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ljhyun/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/res/values/values.xml",
+                    "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,83,84,88,89,90,91,98,141,173,210",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,41 +76,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ljhyun/.gradle/caches/transforms-2/files-2.1/c98121a9a6dcf7507ba7351e14bc5b59/jetified-play-services-basement-17.0.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
-                    },
-                    "to": {
-                        "startLines": "84,94",
-                        "startColumns": "4,4",
-                        "startOffsets": "5259,6437",
-                        "endColumns": "67,166",
-                        "endOffsets": "5322,6599"
-                    }
-                },
-                {
-                    "source": "/Users/ljhyun/AndroidStudioProjects/Flutter_Game/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,200,283,387,497,617,718",
-                        "endColumns": "144,82,103,109,119,100,77",
-                        "endOffsets": "195,278,382,492,612,713,791"
-                    },
-                    "to": {
-                        "startLines": "104,105,106,107,108,109,110",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "7730,7875,7958,8062,8172,8292,8393",
-                        "endColumns": "144,82,103,109,119,100,77",
-                        "endOffsets": "7870,7953,8057,8167,8287,8388,8466"
-                    }
-                },
-                {
-                    "source": "/Users/ljhyun/AndroidStudioProjects/Flutter_Game/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_game/edit.dart';
+import 'package:flutter_game/ppp.dart';
 import 'package:flutter_game/practice.dart';
 import 'package:flutter_game/profile.dart';
 import 'package:flutter_game/splash.dart';
 import 'edit.dart';
 import 'home.dart';
 import 'login.dart';
+import 'ppp.dart';
 
 final GOLD = 0xFFE4C77A;
 final NAVY = 0xFF343A75;
@@ -29,8 +31,8 @@ class gameApp extends StatelessWidget {
         primaryIconTheme: IconThemeData(color: Color(GOLD)),
       ),
       title: 'Game Demo',
-      home: login(),
-      initialRoute: '/login',
+      home: ppp(),
+      initialRoute: '/ppp',
       routes: {
         '/profile': (context) => profile(),
         '/practice': (context) => Practice(),
@@ -38,6 +40,7 @@ class gameApp extends StatelessWidget {
         '/splash': (context) => SplashPage(),
         '/home': (context) => home(),
         '/edit': (context) => edit(),
+        '/ppp' : (context) => ppp(),
       },
     );
   }
