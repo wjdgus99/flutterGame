@@ -27,8 +27,9 @@ class _loginState extends State<login> {
                     text: 'Sign in with Google',
                     padding: EdgeInsets.fromLTRB(10, 3, 10, 3),
                     onPressed: () async {
-                      Provider.of<ApplicationState>(context).signInWithGoogle();
-                      await Navigator.pushNamed(context, '/home');
+                      await Provider.of<ApplicationState>(context)
+                          .signInWithGoogle();
+                      Navigator.pushNamed(context, '/home');
                     },
                   ),
                 ),
