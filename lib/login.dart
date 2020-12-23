@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_game/app.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:provider/provider.dart';
 import 'user.dart';
@@ -14,12 +15,19 @@ class _loginState extends State<login> {
   Widget build(BuildContext context) {
     return Consumer<ApplicationState>(builder: (context, user, child) {
       return Scaffold(
+        backgroundColor: Color(PURPLE),
         appBar: AppBar(),
         body: Padding(
             padding: EdgeInsets.all(10),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 150, 0, 60),
+                  child: Container(
+                    child: Image(image: AssetImage('images/game_logo.png',),width: 130,height: 130,),
+                  ),
+                ),
                 Container(
                   alignment: Alignment.center,
                   child: SignInButton(

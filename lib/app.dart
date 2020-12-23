@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_game/edit.dart';
+import 'package:flutter_game/gameList.dart';
 import 'package:flutter_game/ppp.dart';
 import 'package:flutter_game/practice.dart';
 import 'package:flutter_game/profile.dart';
 import 'package:flutter_game/splash.dart';
+import 'createRoom.dart';
 import 'edit.dart';
 import 'home.dart';
 import 'login.dart';
@@ -32,7 +34,7 @@ class gameApp extends StatelessWidget {
       ),
       title: 'Game Demo',
       home: ppp(),
-      initialRoute: '/ppp',
+      initialRoute: '/gameList',
       routes: {
         '/profile': (context) => profile(),
         '/practice': (context) => Practice(),
@@ -41,6 +43,8 @@ class gameApp extends StatelessWidget {
         '/home': (context) => home(),
         '/edit': (context) => edit(),
         '/ppp' : (context) => ppp(),
+        '/createRoom':(context) => createRoom(),
+        '/gameList':(context)=> gameList(),
       },
     );
   }
