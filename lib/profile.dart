@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'user.dart';
@@ -9,6 +10,8 @@ class profile extends StatefulWidget {
 }
 
 class _profileState extends State<profile> {
+  bool _edit = false;
+
   @override
   Widget build(BuildContext context) {
     return Consumer<ApplicationState>(
@@ -22,7 +25,9 @@ class _profileState extends State<profile> {
               IconButton(
                   icon: Icon(Icons.edit),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/edit');
+                    setState(() {
+                      _edit = !_edit;
+                    });
                   })
             ],
           ),
@@ -30,24 +35,48 @@ class _profileState extends State<profile> {
             padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 40),
             child: Container(
               alignment: Alignment.center,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
+              child: ListView(
                 children: <Widget>[
                   imageProfile(user.imgurl),
                   SizedBox(
                     height: 20,
                   ),
-                  Text('${user.userName}'),
+                  _edit
+                      ? TextField(
+                          decoration:
+                              InputDecoration(hintText: '${user.userName}'),
+                        )
+                      : Text('${user.userName}'),
                   SizedBox(
                     height: 40,
                   ),
                   Align(alignment: Alignment.centerLeft, child: Text('Email')),
-                  Align(
-                      alignment: Alignment.centerLeft,
-                      child: Text('${user.userEmail}')),
-                  Divider(
-                    thickness: 2,
-                  ),
+                  _edit
+                      ? Align(
+                          alignment: Alignment.centerLeft,
+                          child: TextField(
+                            decoration:
+                                InputDecoration(hintText: '${user.userEmail}'),
+                          ))
+                      : Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text('${user.userEmail}')),
+                  if (!_edit)
+                    Divider(
+                      thickness: 2,
+                    ),
+                  if (_edit)
+                    Align(
+                      alignment: Alignment.bottomRight,
+                      child: FlatButton(
+                          onPressed: () {
+                            setState(() {
+                              _edit = false;
+                              //TODO : update info to Database
+                            });
+                          },
+                          child: Text('Save')),
+                    ),
                 ],
               ),
             ),
@@ -61,7 +90,8 @@ class _profileState extends State<profile> {
             unselectedFontSize: 14,
             onTap: (value) {
               if (value == 1) {
-                Navigator.pushNamed(context, '/home');
+                // Navigator.pushNamed(context, '/home');
+                Navigator.popAndPushNamed(context, '/home');
               }
             },
             items: const <BottomNavigationBarItem>[
