@@ -11,7 +11,7 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF8182A7),
+      backgroundColor: Color(PURPLE),
       appBar: AppBar(
         title: Text('home'),
         centerTitle: true,
@@ -19,6 +19,7 @@ class _homeState extends State<home> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Add your onPressed code here!
+          Navigator.pushNamed(context, '/createRoom');
         },
         child: Icon(
           Icons.add,
