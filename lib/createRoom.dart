@@ -26,7 +26,7 @@ class _createRoomState extends State<createRoom> {
     super.dispose();
   }
 
-  Future<void> makeRoom(String userName) async {
+  Future<void> makeRoom(String userName, String userID) async {
 
     var createTime =  DateTime.now().toString();
 
@@ -40,6 +40,7 @@ class _createRoomState extends State<createRoom> {
       'status': false,
       'isPrivate': _isChecked,
       'gameType': gameId,
+      'creatorID': userID,
       //TODO. USERPOSITION
     });
   }
@@ -57,7 +58,7 @@ class _createRoomState extends State<createRoom> {
               actions: [
                 IconButton(icon: Icon(Icons.check), onPressed: () {
                   print('Creator: ${user.userName}');
-                  makeRoom(user.userName);
+                  makeRoom(user.userName, user.userID);
                   print('DONE!!!!!');
                 }),
               ],

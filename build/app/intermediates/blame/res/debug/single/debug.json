@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -160,8 +160,16 @@
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-hdpi_game_logo.png.flat",
+        "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-hdpi/game_logo.png"
+    },
+    {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_game_logo.png.flat",
+        "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-xxhdpi/game_logo.png"
     },
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
@@ -200,6 +208,10 @@
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-mdpi_game_logo.png.flat",
+        "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-mdpi/game_logo.png"
+    },
+    {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/193ae46aa1ac59618b7634112095da7a/jetified-play-services-auth-16.0.1/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
     },
@@ -230,6 +242,10 @@
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "/Users/gimminju/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_game_logo.png.flat",
+        "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-xxxhdpi/game_logo.png"
     },
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -302,6 +318,10 @@
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/mipmap-xhdpi_game_logo.png.flat",
+        "source": "/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/res/mipmap-xhdpi/game_logo.png"
     },
     {
         "merged": "/Users/gimminju/AndroidStudioProjects/flutterGame/build/app/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",

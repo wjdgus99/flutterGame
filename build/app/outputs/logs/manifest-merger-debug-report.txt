@@ -125,7 +125,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gimm
 	android:label
 		ADDED from /Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:10:9-37
 	android:icon
-		ADDED from /Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:11:9-41
 	android:name
 		ADDED from /Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:9:9-57
 activity#com.example.flutter_game.MainActivity

@@ -39,8 +39,8 @@
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.1.0] /Users/gimminju/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/AndroidManifest.xml:24:18-86
 30        android:debuggable="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:11:9-43
+31        android:icon="@mipmap/game_logo"
+31-->/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:11:9-41
 32        android:label="flutter_game" >
 32-->/Users/gimminju/AndroidStudioProjects/flutterGame/android/app/src/main/AndroidManifest.xml:10:9-37
 33        <activity

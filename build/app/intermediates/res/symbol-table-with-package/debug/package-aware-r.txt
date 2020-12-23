@@ -173,6 +173,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+mipmap game_logo
 mipmap ic_launcher
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
