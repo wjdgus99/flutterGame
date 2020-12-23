@@ -18,7 +18,7 @@ class _cGamePageState extends State<cGamePage> {
 
   @override
   Widget build(BuildContext context) {
-    // roomName = ModalRoute.of(context).settings.arguments;
+    roomName = ModalRoute.of(context).settings.arguments;
     return Scaffold(
       backgroundColor: Color(PURPLE),
       appBar: AppBar(
